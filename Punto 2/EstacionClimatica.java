@@ -7,7 +7,7 @@ public class EstacionClimatica {
             temperaturas[i] = Math.random() * 40;
         }
 
-        System.out.println("Temperatura al mediodía (hora 12): " + temperaturas[12] + " °C");
+        System.out.println("Temperatura hora [12] del medio dia: " + temperaturas[12] + "°C");
 
         try {
             temperaturas[24] = 25.0; 
