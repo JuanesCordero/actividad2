@@ -17,7 +17,7 @@ public class SistemaBancarioLegacy {
         for (String log : logTransacciones) {
             System.out.println(log);
         }
-        
+
          public static void compararRendimiento() {
 
         int cantidad = 1_000_000;
@@ -44,10 +44,8 @@ public class SistemaBancarioLegacy {
         long finArray = System.currentTimeMillis();
         long tiempoArray = finArray - inicioArray;
 
-        System.out.println("\n=== COMPARACIÓN DE RENDIMIENTO ===");
+        System.out.println("\nCOMPARACIÓN");
         System.out.println("Tiempo Vector: " + tiempoVector + " ms");
         System.out.println("Tiempo ArrayList: " + tiempoArray + " ms");
-    }
-
     }
 }
