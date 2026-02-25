@@ -17,7 +17,7 @@ public class SistemaBancarioLegacy {
         for (String log : logTransacciones) {
             System.out.println(log);
         }
-
+    }
          public static void compararRendimiento() {
 
         int cantidad = 1_000_000;
