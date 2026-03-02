@@ -1,8 +1,7 @@
 ## Evaluación de la Actividad Evaluable 2
 
 **Estudiante:** 202430021615
-
-**Puntaje Total:** 4.5 / 50
+**Puntaje Total:** 23.3 / 50
 
 ---
 
@@ -10,35 +9,34 @@
 
 **Actividades (45 pts):**
 
-*   **Actividad 1: Diseño Conceptual (TADs)** - **Calificación: 3.5 / 5**
-    *   **Completitud:** La entrega corresponde únicamente a la Actividad 1. Faltan las 8 actividades restantes.
-    *   **`IPlaylist.java`:** La interfaz está correctamente definida con los 5 métodos requeridos. Sin embargo, **falta por completo la documentación Javadoc (/** ... */)** que explique qué hace cada método, sus parámetros y lo que retorna.
-    *   **`Cancion.java`:** La clase `Cancion` está bien definida con sus atributos y métodos. La documentación Javadoc es mínima y puede ser mejorada.
-    *   **`Reproductor.java`:** Se incluye una clase para pruebas, lo cual es una buena práctica.
-    *   **Criterios de evaluación de la actividad 1:**
-        *   Abstracción (40%): Cumplido.
-        *   Completitud (30%): Cumplido.
-        *   Clasificación (30%): No cumplido. No se identifica en los comentarios si la estructura es lineal o no.
+*   **Actividad 1: Diseño Conceptual (TADs)** - **Calificación: 6.3 / 9.0**
+    *   La interfaz está correctamente definida con los métodos requeridos.
+    *   La abstracción (interface) y tipos de datos se cumplen.
+    *   **Falta por completo la documentación Javadoc** que explique si la estructura es lineal o no lineal.
 
-*   **Actividades 2 a 9:** - **Calificación: 0 / 40**
-    *   No se han entregado los archivos correspondientes a estas actividades.
+*   **Actividad 2: Monitoreo Climático** - **Calificación: 9.0 / 9.0**
+    *   Se implementa el uso correcto de índices del ciclo for y se maneja la excepción del arreglo fijo correctamente con try-catch. Excelente acceso directo al arreglo.
+
+*   **Actividad 3: Sistema Bancario Legacy** - **Calificación: 4.5 / 9.0**
+    *   Las comparaciones de rendimiento y operabilidad usando `Vector<String>` están aplicadas de manera exitosa.
+    *   Faltó la justificación teórica sobre el Thread-Safe de las clases vectorizadas, la cual representa la mayor parte de este ejercicio.
+
+*   **Actividad 4: Validador de Documentos** - **Calificación: 0.0 / 9.0**
+    *   Archivo vacío.
+
+*   **Actividad 5: Reserva de Cine** - **Calificación: 0.0 / 9.0**
+    *   Faltante del proyecto entregado.
 
 **Orden del Desarrollador (5 pts):**
 
-*   **Calificación: 1 / 5**
-    *   **Estructura de Carpetas:** Incorrecta. Se utilizó "punto 1" en lugar del formato sugerido "Actividad1_TAD". (0 pts)
-    *   **`.gitignore`:** El archivo `.gitignore` está presente y es adecuado para un proyecto Java. (1 pt)
-    *   **`README.md`:** No se ha incluido el archivo `README.md` con la información del estudiante, el índice de actividades y la reflexión técnica. (0 pts)
-    *   **Historial de Cambios:** No es posible evaluar el historial de `commits` en este entorno.
+*   **Calificación: 3.5 / 5.0**
+    *   **Estructura de Carpetas:** Creadas, sin embargo se usan nombres irregulares (punto 1, Punto 2... ). (1.0 pts)
+    *   **`.gitignore`:** Está presente y es adecuado. (1.25 pts)
+    *   **`README.md`:** No incluye nombre del estudiante, índice ni reflexión de aprendizaje. Fue rellenado con código de la Actividad 1. (0 pts)
+    *   **Historial de Cambios:** Bien elaborados y representativos, tal como se evaluó en la primera revisión. (1.25 pts)
 
 ---
 
 ### Resumen y Recomendaciones:
 
-El trabajo presentado para la Actividad 1 es un buen comienzo, pero está incompleto en aspectos clave como la documentación y el cumplimiento de todos los criterios de evaluación. La mayor área de mejora es la completitud de la entrega, ya que faltan 8 de las 9 actividades.
-
-Para mejorar la calificación, el estudiante debe:
-1.  Completar todas las actividades descritas en el PDF.
-2.  Añadir la documentación Javadoc detallada a todos los métodos y clases, como se solicita en el enunciado.
-3.  Seguir las instrucciones de entrega, incluyendo la estructura de carpetas y la creación de un `README.md` completo.
-4.  Asegurarse de que el código cumple con todos los criterios de evaluación de cada actividad.
+La entrega muestra un buen nivel técnico en ejercicios de complejidad moderada (uso de iteraciones, memoria de arreglos y mediciones de tiempo de Vectors). Se logró completar correctamente la actividad 2 y gran parte de la 1 y 3, pero la entrega carece del desarrollo de las Actividades 4 y 5. También es necesario agregar documentación técnica solicitada (comentarios Javadoc y el propio archivo README.md del repositorio).
